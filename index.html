@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Snowden Decrypt</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  
+</head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <main>
+        <section class="snowdenDecryptContainer">
+            <h1>SNOWDEN DESCRYPT</h1>
+            <div class="userText">
+                <textarea name="text" id="userValue" cols="30" rows="10" class="text"></textarea>
+            </div>
+            <div class="dectyptButtonContainer">
+                <button class="button" onClick="snowdenDecrypt()">DECRYPT</button>
+            </div>
+            <div class="decriptionTextContainer">
+                <p id="decriptionText"></p>
+            </div>
+        </section>
+    </main>
 </body>
+
+<script src="js/scripts.js" type="text/javascript"></script>
 
 </html>
